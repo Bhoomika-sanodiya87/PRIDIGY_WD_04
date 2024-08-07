@@ -1,0 +1,134 @@
+:root {
+    --primary-color: #00ffff;
+    --text-color: #000000;
+    --background-light: #c0c0c0;
+    --header-height: 100vh;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 150%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    line-height: 1.5;
+    overflow-x: hidden;
+    text-align:left;
+
+}
+
+.header-background {
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSm7dVGMS9gQk9UJnKgXIs7bsJbdKxjgwIVO6i8clVFUd9LPLfVXbyMhxtJwc1pUQgB0&usqp=CAU") center fixed;
+    background-size: cover;
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.header-content img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.header-content h1, .header-content p {
+    margin: 0.5rem 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#about {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSm7dVGMS9gQk9UJnKgXIs7bsJbdKxjgwIVO6i8clVFUd9LPLfVXbyMhxtJwc1pUQgB0&usqp=CAU");
+    background-size:cover;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 10px;
+    border-radius: 0.5%;
+    text-align: center;
+    text-anchor:#000000;
+    color:#000000;
+    justify-content:centre;
+}
+
+
+#PROJECT {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSm7dVGMS9gQk9UJnKgXIs7bsJbdKxjgwIVO6i8clVFUd9LPLfVXbyMhxtJwc1pUQgB0&usqp=CAU"); 
+    padding: 10px;
+    border-radius: 0.5%;
+    text-align: center;
+    margin-bottom: 30px;
+    color:#000080;
+
+}
+
+.project {
+    width: 300px;
+    height: 180px;
+    border: 3px solid #000080;
+    margin: 10px;
+    display: inline-block;
+    line-height: 200px;
+    color:#000000;
+}
+
+#contact {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSm7dVGMS9gQk9UJnKgXIs7bsJbdKxjgwIVO6i8clVFUd9LPLfVXbyMhxtJwc1pUQgB0&usqp=CAU");  
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+    text-anchor:black;
+
+}
+
+.td-btn {
+    padding: 12px ;
+    text-transform: uppercase;
+    transition: background-color 0.12s ease-in-out;
+     background-color:#008CBA;
+}
+
+
+
+h2 {
+    color: #000080;
+    font-family: 'Unica One', cursive;
+    font-size: 2.3rem;
+}
+
